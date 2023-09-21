@@ -1,0 +1,351 @@
+.primary-nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+
+*{
+    margin: 0px;
+    
+}
+.primary-nav img{
+    aspect-ratio: 100%;
+    height: 60px;
+    width: 60px;
+}
+.loc-lin{
+    line-height: 1px;
+}
+.location{
+    display: flex;
+}
+
+.form-control{
+    width: 500px;
+} 
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.body-sec{
+    background-color: azure;
+} 
+.second-nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(47, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;  
+} 
+
+
+        
+.second-nav a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.second-nav a:first-child{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.second-nav a:hover{
+    color: rgb(249, 229, 6);
+    border: 1px rgb(240, 237, 234) solid;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+      
+
+.location:hover{
+    color: coral;
+}
+.signin:hover{
+    color: coral;
+}
+.orders:hover{
+    color: coral;
+}
+.cart:hover{
+    color: coral;
+}
+.searchbar:hover{
+    color: coral;
+}
+.carousel-inner img{
+    height: 700px;
+    width: 99%;
+}
+.carouselslide{
+    margin-left: 15px;
+    
+    
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 140px;
+    left: 12px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    right: 50px;
+    bottom: 140px;
+}
+.offerbox1{
+    height: 335px;
+    width: 350px;
+    background-color: rgb(205, 211, 211);
+    text-align: center;
+    /* margin: 50px; */
+}
+.offerboxes{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 350px;
+    
+}
+.set1 img{
+    height: 120px;
+    width: 120px;
+}
+.set1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+
+}
+.set2 img{
+    height: 120px;
+    width: 120px;
+}
+.set2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.cloths-section{
+    height: 400px;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 300px;
+    
+    
+}
+.cloths-section h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+position: relative;
+color: rgb(47, 148, 168);
+
+}
+.cloths-section a{
+    text-decoration: none;
+}
+.cloth-section-images{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cloth-section-images img{
+    height: 320px;
+    width: 320px;
+}
+.cloth-section-images h5{
+    text-align: center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+    color: grey;
+}
+.fashion-section{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(9, 233, 158);
+    position: relative;
+    bottom: 280px;
+    
+}
+.fashion-section a{
+    text-decoration: none;
+}
+.fashion-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    color: rgb(47, 148, 168);
+}
+.fashion-section-images{
+    display: flex;
+    justify-content: space-around;
+}
+.fashion-section-images img{
+    height: 200px;
+    width: 200px;
+}
+.fashion-section-images h5{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+    color: grey;
+}
+.electronics-section{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(242, 208, 12);
+    position: relative;
+    bottom: 260px;
+}
+.electronics-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    color: rgb(47, 148, 168);
+}
+.electronics-section a{
+    text-decoration: none;
+}
+.electronics-section-images{
+    display: flex;
+    justify-content: space-around;
+}
+.electronics-section-images img{
+    height: 200px;
+    width: 200px;
+}
+.electronics-section-images h5{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+    color: grey;
+}
+.homeappliences-section{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(228, 185, 31);
+    position: relative;
+    bottom: 240px;
+
+}
+.homeappliences-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    color: rgb(47, 148, 168);
+}
+.homeappliences-section a{
+    text-decoration: none;
+}
+.Footwear-section{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(249, 188, 4);
+    position: relative;
+    bottom: 220px;
+    
+}
+.Footwear-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    color: rgb(47, 148, 168);
+}
+
+.Footwear-section a{
+    text-decoration: none;
+}
+.footwear-section-images{
+    display: flex;
+    justify-content: space-around;
+}
+.footwear-section-images img{
+    height: 200px;
+    width: 200px;
+}
+.footwear-section-images h5{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+    color: grey;
+}
+.groceries-section{
+    height: 520px;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 200px;
+    margin: 10px white;
+    
+}
+.groceries-section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    color: rgb(47, 148, 168);
+}
+
+.groceries-section a{
+    text-decoration: none;
+}
+.groceries-section-images{
+    display: flex;
+    justify-content: space-around;
+}
+.groceries-section-images img{
+    height: 200px;
+    width: 200px;
+}
+.groceries-section-images h5{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bold;
+    color: grey;
+}
+.gro-sec-second-images{
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+

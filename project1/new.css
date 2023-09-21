@@ -1,0 +1,11 @@
+.primary-nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(39, 36, 36);
+}
+*{
+    margin: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
